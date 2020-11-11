@@ -2,6 +2,7 @@
 date: 2015-11-10 23:24
 description: A description of my first post.
 tags: first, article
+image: ../../images/beattune/watch-view-bpm-gauge.jpeg
 ---
 
 ## Beattune - Meaningful Heart Rate

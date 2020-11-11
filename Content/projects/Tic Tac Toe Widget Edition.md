@@ -19,10 +19,10 @@ Tic Tac Toe Widget Edition allowed the user to play Tic Tac Toe directly from th
 
 <p align="center">
 
-<img src="./images/tictactoe/IMG_2706.PNG" width="230">
-<img src="./images/tictactoe/thumb_IMG_5291_1024.jpg" width="230">
+<img src="../../images/tictactoe/IMG_2706.PNG" width="230">
+<img src="../../images/tictactoe/thumb_IMG_5291_1024.jpg" width="230">
 
-<img src="./images/tictactoe/6337d827651605.5636885540c74.gif" width="300">
+<img src="../../images/tictactoe/6337d827651605.5636885540c74.gif" width="300">
 </p>
 
 ### My contribution

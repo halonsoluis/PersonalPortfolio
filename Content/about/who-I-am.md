@@ -3,7 +3,9 @@ date: 2020-11-10 23:24
 description: Who am I?
 tags: about, meta
 ---
-# Hi, there!
+# HI I'M HUGO ALONSO
+
+I'm an iOS Software Engineer
 
 Hi!, A *happy human* that loves being a `coder` over here!
 My name is Hugo, and I'm a proud Cuban discovering the rest of the world.

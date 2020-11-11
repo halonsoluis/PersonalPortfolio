@@ -28,11 +28,6 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
                 .header(for: context, selectedSection: nil),
                 .wrapper(
                     .h1(.text(index.title)),
-                    .p(
-                        .class("description"),
-                        .text(context.site.description)
-                    ),
-                    .h2("Latest content"),
                     .itemList(
                         for: context.allItems(
                             sortedBy: \.date,
@@ -191,12 +186,7 @@ private extension Node where Context == HTML.BodyContext {
             .class("item-list"),
             .forEach(items) { item in
                 .li(.article(
-                    .h1(.a(
-                        .href(item.path),
-                        .text(item.title)
-                    )),
-                    .tagList(for: item, on: site),
-                    .p(.text(item.description))
+                    .contentBody(item.body)
                 ))
             }
         )

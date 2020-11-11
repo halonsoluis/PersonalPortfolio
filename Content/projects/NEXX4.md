@@ -16,13 +16,15 @@ Nexx4 is an award winning streaming solution deployed by Zappware.
 <img src="../../images/nexx4/nexx4-wind-guide.jpg" width="230">
 </p>
 
+
 ### My contribution
+
 
 The app supports feature flags, custom theming and use a wide tech stack:
 
 
-
 As part of a small iOS team I have been able to lead, grow professionally, provide mentorship and enjoy of the release of the following apps:
+
 
 - [‎Xplore TV (AT)](https://apps.apple.com/at/app/xplore-tv-at/id1441399011?mt=8)
 
