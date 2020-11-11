@@ -24,4 +24,4 @@ struct SwiftPersonalPortfolio: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try SwiftPersonalPortfolio().publish(withTheme: .foundation)
+try SwiftPersonalPortfolio().publish(withTheme: .portfolio)
