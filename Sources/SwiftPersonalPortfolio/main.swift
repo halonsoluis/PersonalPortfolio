@@ -6,7 +6,9 @@ import Plot
 struct SwiftPersonalPortfolio: Website {
     enum SectionID: String, WebsiteSectionID {
         // Add the sections that you want your website to contain here:
-        case posts
+        case about
+        case projects
+        //case posts
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
@@ -14,9 +16,9 @@ struct SwiftPersonalPortfolio: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
-    var name = "SwiftPersonalPortfolio"
-    var description = "A description of SwiftPersonalPortfolio"
+    var url = URL(string: "https://halonso.dev")!
+    var name = "halonso.dev"
+    var description = ""
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
