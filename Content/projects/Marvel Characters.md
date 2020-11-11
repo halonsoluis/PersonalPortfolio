@@ -16,7 +16,7 @@ The prototype/design was provided as a [Marvel Prototype](https://marvelapp.com/
 
 <img src="../../images/marvel/marvel_characters_list.png" width="230">
 <img src="../../images/marvel/marvel_characters_detail.png" width="230">
-<img src="./images/marvel/marvel-characters-transitions-video.gif" width="195">
+<img src="../../images/marvel/marvel-characters-transitions-video.gif" width="195">
 </p>
 
 ### My contribution
