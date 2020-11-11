@@ -20,9 +20,9 @@ It allowed to:
 
 <p align="center">
 
-<img src="images/cachivache/thumb_IMG_6102_1024.jpg" width="230">
-<img src="images/cachivache/IMG_4343.jpg" width="230">
-<img src="images/cachivache/thumb_IMG_4344_1024.jpg" width="230">
+<img src="../../images/cachivache/thumb_IMG_6102_1024.jpg" width="230">
+<img src="../../images/cachivache/IMG_4343.jpg" width="230">
+<img src="../../images/cachivache/thumb_IMG_4344_1024.jpg" width="230">
 </p>
 
 ### My contribution

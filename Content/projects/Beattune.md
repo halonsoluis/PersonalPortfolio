@@ -13,9 +13,9 @@ The measurements were visile on the iPhone and on the Apple Watch.
 The aim was to enhance lives and heighten awareness by monitoring any heart rate irregularities. BeatTune was able to show if the heart rate readings were in line with the type of activity. It was also able to highlights any irregularities that show up and keep a record of them.
 
 <p align="center">
-<img src="images/beattune/watch-view-bpm-gauge.jpeg" width="230">
-<img src="images/beattune/bpm-resting-onboarding.png" width="230">
-<img src="images/beattune/activity-change-onboarding.jpeg" width="230">
+<img src="../../images/beattune/watch-view-bpm-gauge.jpeg" width="230">
+<img src="../../images/beattune/bpm-resting-onboarding.png" width="230">
+<img src="../../images/beattune/activity-change-onboarding.jpeg" width="230">
 </p>
 
 Impact:

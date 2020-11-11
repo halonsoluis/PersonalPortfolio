@@ -13,10 +13,10 @@ With the app, a user could discover the latest fashion collections made with Mer
 <!-- Portfolio Gallery Grid -->
 
 <p align="center">
-<img src="images/Meryl Collections/IMG_0045.jpg" width="230">
-<img src="images/Meryl Collections/IMG_0040.jpg" width="230">
-<img src="images/Meryl Collections/IMG_0042.jpg" width="230">
-<img src="images/Meryl Collections/3f7eb127643619.56368675d79c9.gif" width="700">
+<img src="../../images/Meryl Collections/IMG_0045.jpg" width="230">
+<img src="../../images/Meryl Collections/IMG_0040.jpg" width="230">
+<img src="../../images/Meryl Collections/IMG_0042.jpg" width="230">
+<img src="../../images/Meryl Collections/3f7eb127643619.56368675d79c9.gif" width="700">
 </p>
 
 ### My contribution

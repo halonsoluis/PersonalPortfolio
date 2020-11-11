@@ -12,9 +12,9 @@ Fora is a ‘pro-working’ App - Exclusive to FORA members and allows them to b
 
 <p align="center">
 
-<img src="images/fora/1000x1000bb-4.jpg" width="230">
-<img src="images/fora/1000x1000bb-3.jpg" width="230">
-<img src="images/fora/1000x1000bb-2.jpg" width="230">
+<img src="../../images/fora/1000x1000bb-4.jpg" width="230">
+<img src="../../images/fora/1000x1000bb-3.jpg" width="230">
+<img src="../../images/fora/1000x1000bb-2.jpg" width="230">
 </p>
 
 ### My contribution
