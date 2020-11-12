@@ -27,14 +27,7 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context, selectedSection: nil),
                 .wrapper(
-                    .h1(.text(index.title)),
-                    .itemList(
-                        for: context.allItems(
-                            sortedBy: \.date,
-                            order: .descending
-                        ),
-                        on: context.site
-                    )
+                    .h1(.text(index.title))
                 ),
                 .footer(for: context.site)
             )
@@ -50,7 +43,14 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
                 .header(for: context, selectedSection: section.id),
                 .wrapper(
                     .h1(.text(section.title)),
-                    .itemList(for: section.items, on: context.site)
+                    .if(SwiftPersonalPortfolio.SectionID.projects.rawValue == section.id.rawValue,
+                        .projectList(
+                            for: section.items,
+                            on: context.site
+                        ),
+                        else:
+                            .itemList(for: section.items, on: context.site))
+
                 ),
                 .footer(for: context.site)
             )
@@ -186,10 +186,84 @@ private extension Node where Context == HTML.BodyContext {
             .class("item-list"),
             .forEach(items) { item in
                 .li(.article(
+                    .h1(.text(item.title)),
                     .contentBody(item.body)
                 ))
             }
         )
+    }
+
+    static func projectList<T: Website>(for items: [Item<T>], on site: T) -> Node {
+        
+        return .ul(
+            .class("item-list"),
+            .forEach(items) { item in
+
+                guard let metadata = item.metadata as? SwiftPersonalPortfolio.ItemMetadata else {
+                    return .empty
+                }
+
+                guard let project = metadata.project else {
+                    return .empty
+                }
+
+                return .li(
+                    .project(for: project),
+                    .contentBody(item.body)
+                )
+            }
+        )
+    }
+
+    static func project(for project: SwiftPersonalPortfolio.ItemMetadata.ProjectMetadata) -> Node {
+
+        return .article(
+            .h1(.text(project.name)),
+            .links(for: project.link),
+            .technologies(for: project.technologies),
+            .p(.text(project.description)),
+            .gallery(for: project.gallery)
+        )
+    }
+
+    static func technologies(for technologies: [String]) -> Node {
+        guard !technologies.isEmpty else {
+            return .empty
+        }
+
+        return .ul(.class("tag-list"), .forEach(technologies) { tag in
+            .li(.a(
+                .text(tag)
+            ))
+        })
+    }
+
+    static func links(for links: [SwiftPersonalPortfolio.ItemMetadata.ProjectMetadata.Link]) -> Node {
+        guard !links.isEmpty else {
+            return .empty
+        }
+
+        return .ul(.class("link-list"), .forEach(links) { link in
+            .li(.a(
+                .target(.blank),
+                .href(link.url),
+                .text(link.name)
+            ))
+        })
+    }
+
+    static func gallery(for gallery: [String]) -> Node {
+        guard !gallery.isEmpty else {
+            return .empty
+        }
+
+        return .div(.class("gallery"), .forEach(gallery) { image in
+            .a(
+                .target(.blank),
+                .href(image),
+                .img(.class("gallery-item"), .src(image))
+            )
+        })
     }
 
     static func tagList<T: Website>(for item: Item<T>, on site: T) -> Node {

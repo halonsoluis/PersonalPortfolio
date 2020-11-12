@@ -84,6 +84,18 @@ a {
     margin-bottom: 40px;
 }
 
+.gallery-item {
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 33%;
+    vertical-align: middle
+}
+
+.gallery {
+    width: 100%;
+}
+
 .item-list > li {
     display: block;
     padding: 20px;
@@ -127,6 +139,25 @@ a {
 
 .item-page .tag-list {
     display: inline-block;
+}
+
+.link-list {
+    margin-bottom: 15px;
+}
+
+.link-list li,
+.link {
+    color: #ddd;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.link-list a,
+.link a {
+    text-decoration: none;
 }
 
 .content {

@@ -12,6 +12,20 @@ struct SwiftPersonalPortfolio: Website {
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
+        struct ProjectMetadata: Hashable, Equatable, Codable {
+            struct Link: Hashable, Equatable, Codable {
+                var name: String
+                var url: String
+            }
+            var name: String
+            var description: String
+            var technologies: [String]
+            var gallery: [String]
+            var linkText: [String]
+            var linkURL: [String]
+        }
+
+        var project: ProjectMetadata?
         // Add any site-specific metadata that you want to use here.
     }
 
@@ -23,5 +37,16 @@ struct SwiftPersonalPortfolio: Website {
     var imagePath: Path? { nil }
 }
 
-// This will generate your website using the built-in Foundation theme:
+extension SwiftPersonalPortfolio.ItemMetadata.ProjectMetadata {
+    var link: [Link] {
+        guard linkText.count == linkURL.count else {
+            return []
+        }
+
+        return (0..<linkText.count).map { index in
+            Link(name: linkText[index], url: linkURL[index])
+        }
+    }
+}
+
 try SwiftPersonalPortfolio().publish(withTheme: .portfolio)

@@ -2,22 +2,17 @@
 date: 2017-11-10 23:24
 description: A description of my first post.
 tags: first, article
+
+project.name: Marvel Characters
+project.description: Marvel Characters is a take-home project I completed as part of the interview process for an iOS Developer role in Portugal.
+project.technologies: swift5, storyboards, carthage, mvm, rx-swift
+project.gallery: ../../images/marvel/marvel_characters_list.png, ../../images/marvel/marvel_characters_detail.png, ../../images/marvel/marvel-characters-transitions-video.gif
+project.linkText: Gitlab link to the project, Github link to the project
+project.linkURL: https://gitlab.com/hugoalonsoluis/marvel-characters, https://github.com/halonsoluis/marvel-characters
 ---
-
-## Marvel Characters
-
-[Marvel Characters](https://gitlab.com/hugoalonsoluis/marvel-characters) is a take-home project I completed as part of the interview process for an iOS Developer role in Portugal.
 
 The prototype/design was provided as a [Marvel Prototype](https://marvelapp.com/279b309/screen/10499832). The main idea was to present data from the [Marvel API](https://developer.marvel.com/).
 
-<!-- Portfolio Gallery Grid -->
-
-<p align="center">
-
-<img src="../../images/marvel/marvel_characters_list.png" width="230">
-<img src="../../images/marvel/marvel_characters_detail.png" width="230">
-<img src="../../images/marvel/marvel-characters-transitions-video.gif" width="195">
-</p>
 
 ### My contribution
 
@@ -26,6 +21,3 @@ I created a completely functional version in approximately 14 days using Swift 3
 This was the first time I used blur effects and custom transitions in an app, and I ❤️it!
 
 Later on, I started experimenting with it and it has been my playground for testing and Continuous Integration using [GitlabCI](https://about.gitlab.com/product/continuous-integration/). Currently is updated to Swift 5.
-
-- [Gitlab link to the project (original)](https://gitlab.com/hugoalonsoluis/marvel-characters)
-- [Github link to the project](https://github.com/halonsoluis/marvel-characters)
