@@ -1,6 +1,5 @@
 .DS_Store
 /build
-/Output
 /.build
 /.swiftpm
 /*.xcodeproj
