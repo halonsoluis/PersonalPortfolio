@@ -92,6 +92,15 @@ a {
     vertical-align: middle
 }
 
+.image-right {
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    vertical-align: right-side
+    height: 50%
+}
+
 .gallery {
     width: 100%;
 }

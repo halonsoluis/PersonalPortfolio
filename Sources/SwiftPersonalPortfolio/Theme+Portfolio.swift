@@ -27,7 +27,8 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context, selectedSection: nil),
                 .wrapper(
-                    .h1(.text(index.title))
+                    .h1(.text(index.title)),
+                    .heroImage(for: "../../images/main/hero_image.jpg")
                 ),
                 .footer(for: context.site)
             )
@@ -250,6 +251,14 @@ private extension Node where Context == HTML.BodyContext {
                 .text(link.name)
             ))
         })
+    }
+
+    static func heroImage(for image: String) -> Node {
+        return .a(
+                .target(.blank),
+                .href(image),
+                .img(.class("image-right"), .src(image))
+            )
     }
 
     static func gallery(for gallery: [String]) -> Node {
