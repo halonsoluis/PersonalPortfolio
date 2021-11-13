@@ -5,7 +5,7 @@ tags: first, article
 
 project.name: Tic Tac Toe Widget Edition
 project.description: Tic Tac Toe Widget Edition allowed the user to play Tic Tac Toe directly from the iOS Notification Center and the Apple Watch.
-project.technologies: swift5.2, snapkit, cocoapods, dependency-injection, video-streaming, mvvm, rx-swift, realm, swinject, redux
+project.technologies: swift, cocoapods, rx-swift, realm, widgets, gamekit
 project.gallery: ../../images/tictactoe/IMG_2706.PNG, ../../images/tictactoe/thumb_IMG_5291_1024.jpg, ../../images/tictactoe/6337d827651605.5636885540c74.gif
 project.linkText: Landing Page design, AppAdvice, Product Hunt
 project.linkURL: https://www.behance.net/gallery/27651605/TicTacToe-Widget, https://appadvice.com/app/tictactoe-widget-edition/966408407, https://www.producthunt.com/posts/tictactoe-widget-edition

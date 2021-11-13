@@ -5,7 +5,7 @@ tags: first, article
 
 project.name: Beattune - Meaningful Heart Rate
 project.description: BeatTune gets its heart rate directly in real-time from the sensor on the Apple Watch by means of the Health App.
-project.technologies: swift5.2, snapkit, cocoapods, dependency-injection, video-streaming, mvvm, rx-swift, realm, swinject, redux
+project.technologies: swift, carthage, rx-swift, realm, watchkit
 project.gallery: ../../images/beattune/watch-view-bpm-gauge.jpeg, ../../images/beattune/bpm-resting-onboarding.png, ../../images/beattune/activity-change-onboarding.jpeg
 project.linkText: BeatTune - Meaningful Heart Rate
 project.linkURL: https://www.producthunt.com/posts/beattune-meaningful-heart-rate

@@ -5,7 +5,7 @@ tags: first, article
 
 project.name: Nylstar Collections
 project.description: An app for the showcase of the **Collections Store** of Meryl. With the app, a user could discover the latest fashion collections made with Meryl.
-project.technologies: swift5.2, snapkit, cocoapods, dependency-injection, video-streaming, mvvm, rx-swift, realm, swinject, redux
+project.technologies: swift, storyboard, cocoapods, mvc, coredata
 project.gallery: ../../images/Meryl Collections/IMG_0045.jpg, ../../images/Meryl Collections/IMG_0040.jpg, ../../images/Meryl Collections/IMG_0042.jpg
 project.linkText: Landing Page design, AppAdvice
 project.linkURL: https://www.behance.net/gallery/27643619/Meryl-App-for-iOS, https://appadvice.com/app/nylstar-collections/989465882

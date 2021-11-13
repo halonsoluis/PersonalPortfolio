@@ -5,7 +5,7 @@ tags: first, article
 
 project.name: Cachivache
 project.description: Cachivache was a project for allowing to download and visualize the contents of an independent, young, and energetic publication startup dealing with the challenges that suppose the lack of connectivity in Cuba.
-project.technologies: swift5.2, snapkit, cocoapods, dependency-injection, video-streaming, mvvm, rx-swift, realm, swinject, redux
+project.technologies: swift, storyboard, cocoapods, mvc, rx-swift, realm
 project.gallery: ../../images/cachivache/thumb_IMG_6102_1024.jpg, ../../images/cachivache/IMG_4343.jpg, ../../images/cachivache/thumb_IMG_4344_1024.jpg
 project.linkText: Gitlab link to the project, CachivacheMedia
 project.linkURL: https://gitlab.com/hugoalonsoluis/Cachivache, https://cachivachemedia.com

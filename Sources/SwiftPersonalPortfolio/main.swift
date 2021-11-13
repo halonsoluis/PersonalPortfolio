@@ -8,7 +8,7 @@ struct SwiftPersonalPortfolio: Website {
         // Add the sections that you want your website to contain here:
         case about
         case projects
-        //case posts
+//        case posts
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
