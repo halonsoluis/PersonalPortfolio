@@ -23,7 +23,6 @@ Oh.. **I enjoy teaching**, I have been a 👨🏻‍🏫 for several years and t
 [![email][badge_mailTo]][mailTo]
 [![linkedIn][badge_linkedIn]][linkedIn]
 [![twitter][badge_twiiter]][twiiter]
-[![stackoverflow][badge_stackoverflow]][stackoverflow]
 
 
 [//]: # "Badges"
@@ -39,7 +38,6 @@ Oh.. **I enjoy teaching**, I have been a 👨🏻‍🏫 for several years and t
 
 [downloadCV]: /files/cv.pdf
 [mailTo]: mailto:hugoalonsoluis@gmail.com
-[stackoverflow]: https://stackoverflow.com/story/hugo-alonso-luis
 [linkedIn]: https://www.linkedin.com/in/hugoalonsoluis/?locale=en_US
 [twiiter]: https://twitter.com/hugoalonsoluis
 
