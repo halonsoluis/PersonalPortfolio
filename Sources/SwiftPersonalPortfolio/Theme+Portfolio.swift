@@ -27,8 +27,8 @@ private struct PortfolioHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context, selectedSection: nil),
                 .wrapper(
-                    .h1(.text(index.title)),
-                    .heroImage(for: "../../images/main/hero_image.jpg")
+                    .h1(.text(index.title))
+                   // .heroImage(for: "../../images/main/hero_image.jpg")
                 ),
                 .footer(for: context.site)
             )
