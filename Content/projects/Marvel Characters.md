@@ -18,6 +18,6 @@ The prototype/design was provided as a [Marvel Prototype](https://marvelapp.com/
 
 I created a completely functional version in approximately 14 days using Swift 3, [RxSwift](https://github.com/ReactiveX/RxSwift) and Storyboards. It uses [Alamofire](https://github.com/Alamofire/Alamofire) for networking and [KingFisher](https://github.com/onevcat/Kingfisher) for the caching of images. For handling dependencies it was used [Carthage](https://github.com/Carthage/Carthage).
 
-This was the first time I used blur effects and custom transitions in an app, and I ❤️it!
+This was the first time I used blur effects and custom transitions in an app, and I ❤️ it!
 
 Later on, I started experimenting with it and it has been my playground for testing and Continuous Integration using [GitlabCI](https://about.gitlab.com/product/continuous-integration/). Currently is updated to Swift 5.
